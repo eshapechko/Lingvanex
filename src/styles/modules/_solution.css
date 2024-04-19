@@ -1,0 +1,130 @@
+.solution {
+  padding: 64px 0;
+}
+
+.solution__title {
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.solution__description {
+  letter-spacing: -0.01em;
+  text-align: center;
+  color: var(--black-90);
+  max-width: 682px;
+  margin: 0 auto 70px;
+}
+
+.solution__cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.solution__card {
+  padding: 22px 14px 68.5%;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.08);
+  border: 2px solid rgba(0, 0, 0, 0.04);
+  border-radius: 32px;
+  background-repeat: no-repeat;
+  background-size: 92%;
+  background-position: center 160px;
+}
+
+.solution__card_1 {
+  background-image: url('../../img/translation.png');
+}
+.solution__card_2 {
+  background-image: url('../../img/social.png');
+}
+.solution__card_3 {
+  background-image: url('../../img/content.png');
+}
+
+.solution__card-title {
+  font-weight: 900;
+  font-size: 34px;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.solution__card-text {
+  letter-spacing: -0.01em;
+  text-align: center;
+  color: var(--black-80);
+}
+
+@media (max-width: 1042px) {
+  .solution {
+    padding: 50px 0;
+  }
+
+  .solution__title {
+    font-size: 54px;
+  }
+
+  .solution__description {
+    margin-bottom: 50px;
+  }
+
+  .solution__cards {
+    gap: 15px;
+  }
+
+  .solution__card {
+    padding-bottom: 54.5%;
+  }
+
+  .solution__card-title {
+    font-size: 30px;
+  }
+
+  .solution__card-text {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 780px) {
+  .solution__title {
+    font-size: 46px;
+  }
+
+  .solution__cards {
+    grid-template-columns: 450px;
+    justify-content: center;
+  }
+
+  .solution__card-title {
+    font-size: 28px;
+  }
+
+  .solution__card {
+    background-size: 78%;
+    background-position: center 114px;
+  }
+}
+
+@media (max-width: 580px) {
+  .solution {
+    padding: 40px 0;
+  }
+
+  .solution__title {
+    font-size: 38px;
+  }
+
+  .solution__description {
+    font-size: 16px;
+  }
+
+  .solution__cards {
+    grid-template-columns: 300px;
+  }
+
+  .solution__card {
+    background-position: center 130px;
+  }
+}

@@ -1,0 +1,11 @@
+:root {
+  --font-family: 'Inter', sans-serif;
+  --second-family: 'Manrope', sans-serif;
+
+  --black-80: rgba(42, 43, 47, 0.8);
+  --black-90: rgba(42, 43, 47, 0.9);
+  --link-color: #0146fe;
+  --linkHover-color: #0144fed3;
+  --bg-light-color: #f4f6fd;
+  --gray: #7a869c;
+}
